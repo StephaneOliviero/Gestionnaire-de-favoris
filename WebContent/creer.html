@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gestionnaire de favoris</title>
+<link href="gestionnaireDeFavoris.css" rel="stylesheet">
+</head>
+<body>
+	<form method="post" action="">
+
+		<fieldset id="section1">
+
+			<legend>Catégories :</legend>
+
+			<label for="categorie">Entrez un nom pour la catégorie :</label> <input
+				type="text" id="categorie" name="categorie"><br> <input
+				type="submit" value="Envoyez"><br>
+			<br>
+
+		</fieldset>
+		
+		<fieldset id="section2">
+			
+			<legend>Favoris :</legend>
+			
+			<label for="nom">Entrez un nom :</label>
+			<input type="text" id="nom" name="nom"><br>
+		
+			<label for="url">Entrez l'URL :</label>
+			<input type="url" id="url" name="url"><br>
+		
+			<label for="categorie">Choisissez une categorie :</label>
+			
+				<select id="interet" multiple>
+  					<option value="musique">Musique</option> 
+  					<option value="cinema">Cinema</option>
+  					<option value="sport">Sport</option>
+  					<option value="jeuvideo">Jeu-Vidéo</option>
+  					<option value="lecture">Lecture</option>
+				</select>
+				 
+				 <input type="submit" value="Envoyez"><br>
+			
+		</fieldset>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</form>
+</body>
+</html>
